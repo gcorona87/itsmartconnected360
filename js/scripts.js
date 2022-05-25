@@ -9,10 +9,12 @@
 
 window.addEventListener('DOMContentLoaded', event => {
 
-    analytics.identify({
-        nickname: 'Amazing Grace',
-        favoriteCompiler: 'A-0',
-        industry: 'Computer Science'
+    analytics.identify('100001',{
+        nickname: 'Usuario de Prueba',
+        device: 'Laptop Huawei',
+        Country: 'MX',
+        City: 'CMDX',
+        
       });
 
     // Navbar shrink function
