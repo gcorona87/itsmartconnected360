@@ -9,6 +9,12 @@
 
 window.addEventListener('DOMContentLoaded', event => {
 
+    analytics.identify({
+        nickname: 'Amazing Grace',
+        favoriteCompiler: 'A-0',
+        industry: 'Computer Science'
+      });
+
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
