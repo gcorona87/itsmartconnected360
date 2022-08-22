@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', event => {
         phone: 'IPHONE',
         name: 'Nombre de prueba',
         phone: '5533221100',
-        email: 'mail@mail.com'
+        email: 'mail2@mail.com'
       });
 
     // Navbar shrink function
